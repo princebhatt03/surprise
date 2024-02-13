@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Protest+Riot&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  font-family: 'Protest Riot', sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* #main {
+  width: 100%;
+  height: 100%;
+} */
+.container-first {
+  width: 100%;
+  height: 100vh;
+  background: url(img/background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-first-text {
+  color: rgb(227, 80, 64);
+  text-align: center;
+  display: block;
+}
+#btn {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid black;
+  background-color: darksalmon;
+  transition: all ease-in-out 0.6s;
+}
+#btn2 {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid black;
+  background-color: darksalmon;
+  transition: all ease-in-out 0.6s;
+}
+#btn:hover {
+  background-color: darkred;
+}
+#btn2:hover {
+  background-color: darkred;
+}
+.container-second {
+  width: 100%;
+  height: 100vh;
+  background: url(img/Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gif {
+  width: 400px;
+  height: 400px;
+}
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+@media screen and (max-width: 700px) {
+  /* #main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  } */
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  .container-first {
+    width: 100vw;
+    height: 100vh;
+    background: url(img/background2.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    text-align: center;
+  }
+  .container-second {
+    width: 100vw;
+    height: 100vh;
+    background: url(img/Background.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    text-align: center;
+  }
+  .gif {
+    width: 300px;
+    height: 300px;
+  }
+  #pra {
+    width: 100%;
+  }
+}
