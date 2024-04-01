@@ -7,3 +7,6 @@ function nextPage2() {
 function nextPage3() {
   window.location.href = 'spec.html';
 }
+function nextPage4() {
+  window.location.href = 'vid.html';
+}
