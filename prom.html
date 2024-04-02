@@ -6,6 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
     <title>Surprise For Vanshi</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon.png"
+      type="image/x-icon" />
     <style>
       * {
         margin: 0;
@@ -28,6 +32,14 @@
         justify-content: center;
         align-items: center;
       }
+      .img-cont {
+        width: 100px;
+        position: fixed;
+        right: 10%;
+        top: 15%;
+        height: 100px;
+        /* background-color: red; */
+      }
       h1 {
         position: absolute;
         top: 10%;
@@ -35,6 +47,14 @@
       @media screen and (max-width: 700px) {
         h1 {
           font-size: 20px;
+        }
+        .img-cont {
+          width: 100px;
+          position: fixed;
+          right: 45%;
+          top: 75%;
+          height: 100px;
+          /* background-color: red; */
         }
       }
     </style>
@@ -45,6 +65,11 @@
         Bas me tere ko Hamesha Pareshan kron or fir tu pop-pop wala gussa ho or
         me manao
       </h1>
+      <div class="img-cont">
+        <img
+          src="img/panda.png"
+          alt="" />
+      </div>
     </div>
   </body>
 </html>
