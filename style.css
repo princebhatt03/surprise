@@ -66,6 +66,15 @@ body {
   background-color: darksalmon;
   transition: all ease-in-out 0.6s;
 }
+#btn5 {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid black;
+  background-color: darksalmon;
+  transition: all ease-in-out 0.6s;
+}
 #btn:hover {
   background-color: darkred;
 }
@@ -76,6 +85,9 @@ body {
   background-color: darkred;
 }
 #btn4:hover {
+  background-color: darkred;
+}
+#btn5:hover {
   background-color: darkred;
 }
 

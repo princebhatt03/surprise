@@ -10,3 +10,6 @@ function nextPage3() {
 function nextPage4() {
   window.location.href = 'vid.html';
 }
+function nextPage5() {
+  window.location.href = 'vid2.html';
+}
